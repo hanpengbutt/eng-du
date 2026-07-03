@@ -1,5 +1,5 @@
 const AMPLITUDE_API_KEY = import.meta.env.VITE_AMPLITUDE_API_KEY;
-const REPLAY_SAMPLE_RATE = 0.1;
+const REPLAY_SAMPLE_RATE = 1.0;
 
 let amplitudeModule: typeof import('@amplitude/analytics-browser') | null = null;
 let isInitializing = false;
