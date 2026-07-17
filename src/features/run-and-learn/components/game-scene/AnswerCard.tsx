@@ -102,7 +102,8 @@ export default function AnswerCard({
         <Text
           font="/PinkfongBabySharkFont_Bold.woff"
           position={[0.77, 1.8, 0.01]} // Centered horizontally (1.54/2), placed vertically in the upper solid part
-          fontSize={0.25}
+          fontSize={0.33}
+          lineHeight={0.88}
           color="#333333"
           anchorX="center"
           anchorY="middle"
